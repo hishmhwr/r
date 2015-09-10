@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
+.nav {
+  background: #FFFFFF;
+  height: 79px; 
+  width: 100%;
+}
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin-top: -200px;
+  margin-right: 150px;
+  padding: 90;
+  text-align: left; 
+  width: 780px;
+  float: left;
+}
+.nav ul li {
+  color: #000;
+  display: inline-block; 
+  height: 80px;
+  line-height: 78px; 
+  list-style: none;
+  width: 100px;  
+  transition: background .5s; 
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+   font-weight: bold;
+   text-align: center 
+}
+.btn:hover, .nav ul li:hover {
+  background: #CC5200;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+.main {
+  background: url(https://unsplash.com/photos/fnshKX39yV8/download) no-repeat center center; 
+  background-size: cover;
+  height: 600px;
+  text-align: left; 
+}
+.main container {
+  position: relative;
+  top: 600px;    
+    }
+
+.main h1 {
+  color: #fff;
+  font-size: 40px;  
+  font-family: 'arial', sans-serif;
+  font-weight: bold; 
+  margin-top: 80px;
+  margin-bottom: 0px;
+ 
+  
+}
+.main p {
+font-size: 40px;
+color: #fff;
+font-family: 'arial';
+}
+
+.btn {
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none; 
+  transition: background .5s; 
+}
+.footer { 
+  background: #fff;
+  height: 50px; 
+}
+.footer .container {
+  position: relative;
+  top: 5px;
+}
